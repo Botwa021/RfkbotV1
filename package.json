@@ -1,7 +1,7 @@
 {
-  "name": "AlyaaXzy",
-  "version": "1.5.0",
-  "description": "WhatsApp Bot",
+  "name": "MURSID",
+  "version": "2.5.1",
+  "description": "Customizable WhatsApp Bot",
   "depecrated": false,
   "main": "index.js",
   "directories": {
