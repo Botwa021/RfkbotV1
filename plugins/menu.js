@@ -8,7 +8,7 @@ const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
-┏━━〔 ${namabot} 〕━⬣
+┏━━〔 ${WhatsApp Bot} 〕━⬣
 ┃⬡ Hai, %name!
 ┃
 ┃⬡ Tersisa *%limit Limit*
@@ -26,7 +26,7 @@ const defaultMenu = {
 ┃⬡ Uptime: *%uptime (%muptime)*
 ┃⬡ Database: %rtotalreg dari %totalreg
 ┃⬡ Github:
-┃⬡ https://github.com/AlyaaXd/rfkbot
+┃⬡ https://github.com/Botwa021/dorabot
 ┃
 ┗━━━━━━⬣`.trimStart(),
   header: '┏━━〔 %category 〕━⬣',
@@ -240,11 +240,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 ┃⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┃
-┃⬡ Script by Alyaa
-┃⬡ Github Name : AlyaaXd
-┃⬡ Yt : AlyaaXd
+┃⬡ Script By MURSID BOT
+┃⬡ Github Name : Botwa021
+┃⬡ Yt : GAL ADA
 ┃⬡ Run bot : Heroku
-┃⬡ Tipe SC rfkbot
+┃⬡ Tipe SC Rfk
 ┗━━━━━━━━⬣`.trim(),
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
@@ -365,7 +365,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": ".? tanpakategori"
                 }, {
                   "title": "[🧑‍💻] Owner",
-                  "description": "Menu Khusu Owner",
+                  "description": "Menu Khusus Owner",
                   "rowId": ".? owner"
                 }
               ]
