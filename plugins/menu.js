@@ -8,7 +8,7 @@ const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
     before: `
-┏━━〔 ${WhatsApp Bot} 〕━⬣
+┏━━〔 ${namabot} 〕━⬣
 ┃⬡ Hai, %name!
 ┃
 ┃⬡ Tersisa %limit Limit
@@ -26,7 +26,7 @@ const defaultMenu = {
 ┃⬡ Uptime: %uptime (%muptime)
 ┃⬡ Database: %rtotalreg dari %totalreg
 ┃⬡ Github:
-┃⬡ https://github.com/Botwa021/mursid
+┃⬡ https://github.com/Botwa021/dorabot
 ┃
 ┗━━━━━━⬣`.trimStart(),
     header: '┏━━〔 %category 〕━⬣',
