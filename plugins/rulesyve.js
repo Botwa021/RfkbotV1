@@ -30,9 +30,14 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ➥ *Total user:* ${totalreg} *user*
 ➥ *Uptime:* ${uptime}
 
-═ 〘 DONASI 〙 ═
-➥ Pulsa : 6285730903853
-➥ Dana & OVO: 6285730903853
+═ 〘 Donasi • Pulsa 〙 ═
+➥ Smartfren : 088233832771
+➥ Tri : 089612698583
+➥ Hubungi : wa.me//6288233832771
+
+═ 〘 Donasi • Non Pulsa 〙 ═
+➥ Dana : 088233832771
+➥ Hubungi : wa.me//6288233832771
 
 
 ➥ Request? https://github.com/AlyaaXd
@@ -40,17 +45,17 @@ let handler  = async (m, { conn, usedPrefix }) => {
 Official Grup :
 
 Grup 1 :
-https://chat.whatsapp.com/HJ9pD2XJ8vq7whuAYOvT1Y
+https://chat.whatsapp.com/LPFQ2X1cnihB0fb8F8cZau
 
 Grup 2 :
-https://chat.whatsapp.com/HJ9pD2XJ8vq7whuAYOvT1Y
+https://chat.whatsapp.com/HJxyoGSAaXvG6q5gV0r9mP
 
 Grup 3 :
 https://chat.whatsapp.com/HJ9pD2XJ8vq7whuAYOvT1Y
 
 
  ©BaseNew ${namabot}
- Script original by AlyaaXd
+ Script original By © Nurutomo
  
  
 ═〘 ${namabot} 〙 ═
