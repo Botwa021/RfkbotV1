@@ -1,5 +1,4 @@
 let fs = require('fs')
-let fetch = require('node-fetch')
 let handler = m => m
 
 handler.all = async function (m, { isBlocked }) {
@@ -15,8 +14,8 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? `${MURSID BOT} tidak aktif` : banned ? 'kamu dibanned' : `${MURSID BOT} disini, ada yang bisa saya bantu?`,
-                footer,
+                isBanned ? 'stikerin tidak aktif' : banned ? 'kamu dibanned' : 'stikerin disini',
+                '© MURSID',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi',
@@ -27,23 +26,18 @@ handler.all = async function (m, { isBlocked }) {
     }
 
     // ketika ada yang invite/kirim link grup di chat pribadi
-    if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup && !m.fromMe && !m.isOwner) {
-        this.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `╠═〘 Beli Bot 〙 ═
-╠➥ *1 Bulan* :      *Rp 20.000*
-╠➥ *Permanen* : *Rp 50.000*
-╠➥ *Premium* :   *Rp 70.000*
-╠➥ *Sc Bot* :        *Masih Beta*
-║
-╠═〘 PEMBAYARAN 〙 ═
-╠➥ Gopay, Dana, Dan Pulsa
-║
-╠═ Tertarik Untuk Beli Bot Ini?
-╠➥Ketuk Tombol Di Bawah Ya
-║
-╠═ ©2021 Rpg wabot-aq
-╠═ Scrip original by Nurutomo
-╠═〘 ${namabot} 〙 ═`.trim(), footer, 'Dana', '#viadana', 'GoPay', '#viagopay', m)
-}
+    if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
+        this.sendButton(m.chat, `┌〔 Undang Bot ke Grup 〕
+├ 3  Hari / Rp 10,000
+├ 7  Hari / Rp 20,000
+├ 12 Hari / Rp 30,000
+├ 16 Hari / Rp 40,000
+├ Permanen / Rp 100,000
+└────
+
+https://github.com/ariffb25/stikerinbot
+`.trim(), '© MURSID', 'Pemilik Bot', ',owner', m)
+    }
 
     // salam
     let reg = /(ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم)/i
@@ -72,7 +66,7 @@ handler.all = async function (m, { isBlocked }) {
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | ${MURSID BOT} By ${Nurutomo}`).catch(_ => _)
+        await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | MURSID BOT`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
