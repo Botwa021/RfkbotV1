@@ -11,8 +11,8 @@
 // thank you to ALL Bot creator
 // and thanks you to who support my Bot
 
-gc1 = ''
-gc2 = ''
+gc1 = 'https://chat.whatsapp.com/FM1bwZEgTUD4efRY9hwT9r'
+gc2 = 'https://chat.whatsapp.com/LPFQ2X1cnihB0fb8F8cZau'
 gc3 = ''
 global.linkGC = ['https://chat.whatsapp.com/EF1mfib8b9RFmrv7ao1zRW', ''] // ganti jadi group lu
 global.owner = ['6288233832771'] // Put your number here //owner eval
@@ -57,15 +57,15 @@ global.packname = 'Bot WhatsApp' // ganti aja
 global.author = 'Mursid' // ganti aja
 
 //yyy
-bc = 'AlyaaXzy' //AlyaaXy Broadcast
+bc = 'MursidXzy' //AlyaaXy Broadcast
 footer = '\n©MURSID BOT'
 namabot = 'Bot WhatsApp'
 namalu = 'Mursid.'
 
 
 // 
-wait = '_*Tunggu Sebentar...*_'
-global.wait = '_*Tunggu Sebentar...*_'
+wait = '_*Tunggu Sebentar orang sabar di sayang mursid...*_'
+global.wait = '_*Tunggu Sebentar orang sabar di sayang mursid...*_'
 global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9'
 global.nsfw = 'Fitur NSFW Dimatikan\nKetik *!enable* *nsfw* untuk menggunakan fitur ini!\n“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
 global.eror = '_*Server Error*_'
