@@ -28,6 +28,12 @@ const defaultMenu = {
 ┃⬡ Github:
 ┃⬡ https://github.com/Botwa021/dorabot
 ┃
+┃⬡ Owner : Mursid S
+┃⬡ Asal kota : Yogyakarta
+┃⬡ Umur : 17
+┃⬡ Status : Pelajar SMK
+┃⬡ Agama : Islam
+┃
 ┗━━━━━━⬣`.trimStart(),
     header: '┏━━〔 %category 〕━⬣',
     body: '┃⬡%cmd %islimit %isPremium',
