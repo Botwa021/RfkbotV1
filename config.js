@@ -1,84 +1,67 @@
-// Bismillahirrahmanirrahim
-// thank you to ALLAH Swt
-// thank you to Nurutomo as wabot-aq
-// thank you to ariffb as stikerinbot
-// thank you to botstylee
-// thank you to bochilgaming as games-wabot
-// thank you to benni ismael
-// thank you to zerochanBot
-// thank you to fernazer
-// thank you to MikeBot Dev Team
-// thank you to ALL Bot creator
-// and thanks you to who support my Bot
-
-gc1 = 'https://chat.whatsapp.com/FM1bwZEgTUD4efRY9hwT9r'
-gc2 = 'https://chat.whatsapp.com/LPFQ2X1cnihB0fb8F8cZau'
-gc3 = ''
-global.linkGC = ['https://chat.whatsapp.com/EF1mfib8b9RFmrv7ao1zRW', ''] // ganti jadi group lu
-global.owner = ['6288233832771'] // Put your number here //owner eval
-global.kontak = ['6288233832771','0'] //Ketika ada yang ngetik #owner
-global.mods = ['0'] // Want some help?
-global.prems = ['6288233832771'] // Premium user has unlimited limit
+let fs = require('fs')
+//bts================================================
+global.owner = ['6288233832771', '6288233832771', '6288233832771', '6288233832771'] // Letakan nomor kamu disini
+global.mods = ['6288233832771', '6288233832771'] // Moderator?
+global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
-  // name: 'https://website'
-  nrtm: 'https://nurutomo.herokuapp.com', 
+  // nama: 'https://website'
+  hardianto: 'https://hardianto-chan.herokuapp.com',
+  jonaz: 'https://jonaz-api-v2.herokuapp.com',
+  neoxr: 'https://neoxr-api.herokuapp.com',
+  nrtm: 'https://nurutomo.herokuapp.com',
+  pencarikode: 'https://pencarikode.xyz',
   xteam: 'https://api.xteam.xyz',
   zahir: 'https://zahirr-web.herokuapp.com',
-  lol: 'https://api.lolhuman.xyz',
-  dhnjing: 'https://dhnjing.xyz',
-  zeks: 'https://api.zeks.me',
-  pencarikode: 'https://pencarikode.xyz',
-  LeysCoder: 'https://leyscoders-api.herokuapp.com'
+  zekais: 'http://zekais-api.herokuapp.com',
+  zeks: 'https://api.zeks.xyz',
+  vhtear: 'https://api.vhtear.com',
+  lolhum: 'https://api.lolhuman.xyz',
+  fxc7: 'https://fxc7-api.herokuapp.com',
+  aqul: 'https://api.justaqul.xyz',
+  irwan: 'https://irwan-api1-xyz.herokuapp.com',
+  mel: 'https://melcanz.com'
+
 }
-global.APIKeys = { // APIKey Here
-  // 'https://website': 'apikey' (apikey kalian)
-  'https://api.xteam.xyz': 'Dawnfrostkey',
-  'https://api.lolhuman.xyz': 'RFK-Rey',
-  'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.me': 'apivinz',
+global.APIKeys = { // APIKey nya disini
+  // 'https://website': 'apikey'
+  'https://hardianto-chan.herokuapp.com': 'hardianto',
+  'https://neoxr-api.herokuapp.com': 'yntkts',
   'https://pencarikode.xyz': 'pais',
-  'https://leyscoders-api.herokuapp.com': 'dappakntlll'
+  'https://api.xteam.xyz': 'apikey',
+  'https://zahirr-web.herokuapp.com': 'zahirgans',
+  'https://api.zeks.xyz': 'apivinz',
+  'https://api.lolhuman.xyz': 'apikey',
+  'https://api.vhtear.com': 'sayahafiz',
+  'https://fxc7-api.herokuapp.com': 'apikey',
+  'https://api.justaqul.xyz': 'apikey',
+  'http://zekais-api.herokuapp.com': 'apikey',
+  'https://irwan-api1-xyz.herokuapp.com': 'memek',
+  'https://melcanz.com': 'trial'
+
 }
-
-lolkey = 'MURSID.'
-zekskey = 'Mursid Bot'
-xteamkey = 'Dawnfrostkey'
-//xteam        MIMINETBOT
-namaig = 'GAK ADA :)'
-namagithub = 'GAK ADA :)'
-kasihcaption = `Nih kak`
-namakontak1 = 'Mursid (Owner)'
-namakontak2 = '.'
-
-//kasihcaption = `Nih Om...`
 
 // Sticker WM
-global.packname = 'Bot WhatsApp' // ganti aja
-global.author = 'Mursid' // ganti aja
+global.packname = 'WhatsApp Bot'
+global.author = 'Mursid'
+global.irwan1 = '6288233832771@s.whatsapp.net'
+global.wan = `0@s.whatsapp.net` //gausah di ubah
+global.wait = '「 ⏱️ 」Loading...'
+global.ganteng = 'https://wa.me/62882008369956?text=Hallo Mas, Kamu Ganteng'
+global.gantengku = 'Link Ke Whatsapp Developer Bot'
+global.eror = '「❗」Server ERROR!'
+global._gc1 = 'https://chat.whatsapp.com/L508viIjjPwHpYEqgTxqj6'
+global._gc2 = 'https://chat.whatsapp.com/JsDLZeKb0YLDyrYc1L28sk'
+global.fla = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text='
+global.watermark = '© MURSID BOT'
+global.wm = '© MURSID BOT'
+global.gc1 = '6281228040725-1623203905@g.us'
+global.gc2 = '6287887038108-1499223893@g.us'
+global.sumberurl = 'https://www.youtube.com/watch?v=TaXTvW0HGmE'
+global.deskripsiurl = 'xyz-wabot adalah salah satu bot WhatsApp, yang mempunyai ±350 fitur'
+global.namabot = "xyz-wabot" //manual di sini
+global.thanks = `Thanks to:\n•Allah swt\n•Nurutomo\n•IrwanX\n•Ariffb\n•Aca Mirabel\n•Penyedia Layanan API\n•Orang-orang yang Berdonasi\n•Wifi Tetangga\n\nJika menemukan bug atau request fitur dan join bot harap chat owner dengan cara:\n*#report* [pesan].\n\n(Bot join group NOT FREE!)\nPrice:\n10K untuk 1 bulan\nUntuk 1 group\n\nNb:bot ini masih terus dikembangkan.`
+global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
 
-//yyy
-bc = 'MursidXzy' //AlyaaXy Broadcast
-footer = '\n©MURSID BOT'
-namabot = 'Bot WhatsApp'
-namalu = 'Mursid.'
-
-
-// 
-wait = '_*Tunggu Sebentar orang sabar di sayang mursid...*_'
-global.wait = '_*Tunggu Sebentar orang sabar di sayang mursid...*_'
-global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9'
-global.nsfw = 'Fitur NSFW Dimatikan\nKetik *!enable* *nsfw* untuk menggunakan fitur ini!\n“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
-global.eror = '_*Server Error*_'
-
-global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-
-// tingkat kesulitan, semakin tinggi semakin susah
-global.multiplier = 36 // The higher, The harder levelup
-
-//*****************PEMBATAS*********************
-// JANGAN DI GANTI NTAR KLO GABISA JAN TANYA GW
-
-let fs = require('fs')
 let chalk = require('chalk')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
