@@ -40,13 +40,13 @@ global.APIKeys = { // APIKey Here
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
-lolkey = 'MURSID.'
-zekskey = 'Mursid Bot'
+lolkey = 'ʙᴏᴛ ᴍᴜʀꜱɪᴅ'
+zekskey = 'ʙᴏᴛ ᴍᴜʀꜱɪᴅ'
 xteamkey = 'Dawnfrostkey'
 //xteam        MIMINETBOT
-namaig = 'GAK ADA :)'
-namagithub = 'GAK ADA :)'
-kasihcaption = `Nih kak`
+namaig = 'Mursid_st'
+namagithub = 'Botwa021'
+kasihcaption = `Nih Om...`
 namakontak1 = 'Mursid (Owner)'
 namakontak2 = '.'
 
@@ -57,8 +57,8 @@ global.packname = 'Bot WhatsApp' // ganti aja
 global.author = 'Mursid' // ganti aja
 
 //yyy
-bc = 'MursidXzy' //AlyaaXy Broadcast
-footer = '\n©MURSID BOT'
+bc = 'MursidXzy' //MursidXy Broadcast
+footer = '\n©ʙᴏᴛ ᴍᴜʀꜱɪᴅ'
 namabot = 'Bot WhatsApp'
 namalu = 'Mursid.'
 
