@@ -3,7 +3,7 @@ let axios = require("axios");
 let handler = async(m, { conn, text }) => {
 	if (!db.data.chats[m.chat].nsfw && m.isGroup) throw global.nsfw
 let str = `
-TOBAT TOLOLL
+FITUR DI NONAKTIFKAN BANYAK BOCAH
 `.trim()
 
   await m.reply('Searching...')
