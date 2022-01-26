@@ -184,7 +184,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
         let names = m.fromMe ? conn.user : conn.contacts[who]
         let pushname = `${names.vnmae || names.notify || names.names || ('+' + names.jid.split`@`[0])}`
-        let pushn = 'Daftar Dulu ya kak supaya namanya muncul disini'
+        let pushn = 'Daftar Dulu ya Om supaya namanya muncul disini'
         let name = registered ? global.db.data.users[m.sender].name : pushn
         let d = new Date(new Date + 3600000)
         let locale = 'id'
