@@ -28,8 +28,6 @@ const defaultMenu = {
 ┃⬡ Github:
 ┃⬡ https://github.com/Botwa021/dorabot
 ┃
-┃⬡ Grup Bot : https://chat.whatsapp.com/LPFQ2X1cnihB0fb8F8cZau
-┃
 ┗━━━━━━⬣`.trimStart(),
     header: '┏━━〔 %category 〕━⬣',
     body: '┃⬡%cmd %islimit %isPremium',
