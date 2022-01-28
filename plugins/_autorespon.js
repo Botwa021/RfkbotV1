@@ -19,7 +19,7 @@ handler.all = async function (m, { isBlocked }) {
             await this.send2Button(m.chat,
                 isBanned ? 'Mursid lagi cape :)' : banned ? 'kamu dibanned' : 'Mursid disini :）',
                 '',
-                isBanned ? 'Unban' : banned ? 'Pemilik Bot' : '⋮☰ Menu',
+                isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.menu',
                 m.isGroup ? 'Owner' : isBanned ? 'Donasi' : 'Donasi',
                 m.isGroup ? '.nowner' : isBanned ? '.donasi' : '.donasi', m)
@@ -74,7 +74,7 @@ Note: Syarat dan Ketentuan mungkin berlaku`.trim(), wm, 'Payment', '#payment', '
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Im Mursid Bot 🤖 || ⏰ Aktif selama ${uptime} || 👥 User : ${Object.keys(global.db.data.users).length} User || 🎐 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'}`).catch(_ => _)
+        await this.setStatus(`I'm MURSID BOT 🤖 || ⏰ Aktif selama ${uptime} || 👥 User : ${Object.keys(global.db.data.users).length} User || 🎐 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'}`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
