@@ -34,6 +34,7 @@ const defaultMenu = {
 ┗━━━━━━⬣
 ┏━━〔 Github Original 〕━⬣
 ┃ https://github.com/Nurutomo/wabot-aq
+┃
 ┗━━━━━━⬣`.trimStart(),
     header: '┏━━〔 %category 〕━⬣',
     body: '┃⬡%cmd %islimit %isPremium',
